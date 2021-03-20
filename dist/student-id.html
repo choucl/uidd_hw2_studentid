@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student ID System</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  </head>
+  <body>
+
+    <form id="list">
+      <button type="submit">List all students</button>
+    </form>
+    <div id="id-list"></div><br><br><br>
+
+    <form id="search">
+      Student ID: <input type="text" name="search-id"><br><br>
+      <button type="submit">Search specific student</button>
+    </form>
+    <h2><div id="search-result"></div></h2><br><br><br>
+
+    <form id="add">
+      Student ID: <input type="text" name="add-id"><br>
+      Student Name: <input type="text" name="add-name"><br>
+      <button type="submit">Add new student</button>
+    </form>
+    <h3><div id="add-result"></div></h3><br><br><br>
+
+    <form id="delete">
+      Student ID: <input type="text" name="delete-id"><br>
+      <button type="submit">Delete specific student</button>
+    </form>
+    <h3><div id="delete-result"></div></h3><br><br><br>
+
+    <script src="./student-id.js" type="module"></script>
+  </body>
+</html>
