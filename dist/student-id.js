@@ -53,7 +53,7 @@ $(document).ready(function() {
   })
 
   $('#delete button[type="submit"]').click((event) => {
-    // add student
+    // delete student
     event.preventDefault();
     $.get('./response', {
       id: $('#delete [name=delete-id]').val(),
